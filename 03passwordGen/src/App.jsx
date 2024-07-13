@@ -12,14 +12,13 @@ function App() {
   let copyTxt = ()=>{
     window.navigator.clipboard.writeText(password)
     passwordRef.current.select();
-    document.execCommand("copy");
   }
 
   let genPass = useCallback(() => {
     let pass = "";
     let s = "abcdefghijklmnopqrstuvwxyz";
     if (isNum) s += "0123456789";
-    if (isChar) s += "!@#$%^&*()_+";
+    if (isChar) s += "!@#$%^&*_+";
 
     let draft = (len)=>{
       let ret = "";
