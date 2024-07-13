@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+}
+
+.SideBar{
+  min-height: 100vh;
+  min-width: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.SideBar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.SideBar li{
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  min-width: 4.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
