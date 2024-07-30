@@ -10,3 +10,6 @@ Learning React by building a simple apps
 
 03passwordGen:
 - password generator app using tailwind with state, callback, ref and props that can be used to generate and copy a random password.
+
+04currencyConverter:
+- currency converter app using tailwind with state, props, hooks and api that can be used to convert currency
